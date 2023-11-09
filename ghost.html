@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="typeBody">
+    <h1 align="center">👻Ghost👻</h1>
+    <h2>Offence, X-Axis: Attack/Special Attack, Y-Axis: Speed</h2>
+    <p>The strongest Ghost type offensive pokemon is <strong>Mega-Gengar.</strong></p>
+    <canvas id="offenceChart"></canvas>
+    
+    <h2>Defence, X-Axis: Defence, Y-Axis: Special Defence</h2>
+    <p>The strongest Ghost type defensive pokemon is <strong>Dusknoir.</strong></p>
+    <canvas id="defenceChart"></canvas>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("offenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Gengar', 'Mega-Gengar', 'Mismagius'],
+            datasets: [{
+                label: "Offence",
+                data: [{x:130, y:110},{x:170, y:130},{x:105, y:105}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+    new Chart(document.getElementById("defenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Mega-Sableye', 'Dusclops', 'Spiritomb', 'Dusknoir','Cofagrigus'],
+            datasets: [{
+                label: "Defence",
+                data: [{x:125, y:115},{x:130, y:130},{x:108,y:108},{x:135,y:135},{x:145,y:105}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+</script>
+</html>

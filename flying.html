@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flying</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="typeBody">
+    <h1 align="center">🦅Flying🦇</h1>
+    <h2>Offence, X-Axis: Attack/Special Attack, Y-Axis: Speed</h2>
+    <p>The strongest Flying type offensive pokemon is <strong>Mega-Aerodactyl.</strong></p>
+    <canvas id="offenceChart"></canvas>
+    
+    <h2>Defence, X-Axis: Defence, Y-Axis: Special Defence</h2>
+    <p>The strongest Flying type defensive pokemon is <strong>Lugia.</strong></p>
+    <canvas id="defenceChart"></canvas>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("offenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Mega-Pidgeot', 'Aerodactyl', 'Mega-Aerodactyl', 'Salamence', 'Mega-Salamence','Rayquaza', 'Mega-Rayquaza', 'Archeops'],
+            datasets: [{
+                label: "Offence",
+                data: [{x:135, y:121}, {x:105, y:130}, {x:135,y:150}, {x:135,y:100}, {x:145, y:120}, {x:150, y:95}, {x:180, y:115}, {x:140,y:110}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+    new Chart(document.getElementById("defenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Mega-Gyarados', 'Articuno', 'Lugia', 'Mega-Altaria', 'Mega-Rayquaza', 'Vespiquen', 'Celesteela'],
+            datasets: [{
+                label: "Defence",
+                data: [{x:109, y:130}, {x:100, y:125}, {x:130, y:154}, {x:110,y:105}, {x:100, y:100}, {x:102,y:102}, {x:103, y:101}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+</script>
+</html>

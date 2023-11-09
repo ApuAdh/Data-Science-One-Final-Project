@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="typeBody">
+    <h1 align="center">🪨Rock🪨</h1>
+    <h2>Offence, X-Axis: Attack/Special Attack, Y-Axis: Speed</h2>
+    <p>The strongest Rock type offensive pokemon is <strong>Mega-Aerodactyl.</strong></p>
+    <canvas id="offenceChart"></canvas>
+    
+    <h2>Defence, X-Axis: Defence, Y-Axis: Special Defence</h2>
+    <p>The strongest Rock type defensive pokemon is <strong>Shuckle.</strong></p>
+    <canvas id="defenceChart"></canvas>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("offenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Aerodactyl', 'Mega-Aerodactyl', 'Archeops', 'Mega-Diancie'],
+            datasets: [{
+                label: "Offence",
+                data: [{x:105, y:130}, {x:135, y:150}, {x:140,y:110}, {x:160,y:110}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+    new Chart(document.getElementById("defenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Shuckle', 'Tyranitar', 'Mega-Tyranitar', 'Bastiodon', 'Probopass', 'Carbink', 'Diancie', 'Mega-Diancie'],
+            datasets: [{
+                label: "Defence",
+                data: [{x:230,y:230},{x:110,y:100},{x:150,y:120},{x:168,y:138},{x:145,y:150},{x:150,y:150},{x:150,y:150},{x:110,y:110}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+</script>
+</html>

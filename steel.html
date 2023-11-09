@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="typeBody">
+    <h1 align="center">Steel</h1>
+    <h2>Offence, X-Axis: Attack/Special Attack, Y-Axis: Speed</h2>
+    <p>The strongest Steel type offensive pokemon is <strong>Mega-Lucario.</strong></p>
+    <canvas id="offenceChart"></canvas>
+    
+    <h2>Defence, X-Axis: Defence, Y-Axis: Special Defence</h2>
+    <p>The strongest Steel type defensive pokemon is <strong>Registeel.</strong></p>
+    <canvas id="defenceChart"></canvas>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("offenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Mega-Metagross', 'Jirachi', 'Mega-Lucario', 'Durant', 'Kartana'],
+            datasets: [{
+                label: "Offence",
+                data: [{x:140,y:110},{x:100,y:100},{x:145,y:112},{x:109,y:109},{x:181,y:109}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+    new Chart(document.getElementById("defenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Registeel', 'Bastiodon', 'Bronzong', 'Probopass', 'Ferrothorn', 'Magearna'],
+            datasets: [{
+                label: "Defence",
+                data: [{x:150,y:150},{x:168,y:138},{x:116,y:116}, {x:145,y:150}, {x:131,y:116},{x:115,y:115}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+</script>
+</html>

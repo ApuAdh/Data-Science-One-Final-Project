@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="typeBody">
+    <h1 align="center">🧚‍♀️Fairy🧚</h1>
+    <h2>Offence, X-Axis: Attack/Special Attack, Y-Axis: Speed</h2>
+    <p>The strongest Fairy type offensive pokemon is <strong>Tapu Koko.</strong></p>
+    <canvas id="offenceChart"></canvas>
+    
+    <h2>Defence, X-Axis: Defence, Y-Axis: Special Defence</h2>
+    <p>The strongest Fairy type defensive pokemon is <strong>Diancie.</strong></p>
+    <canvas id="defenceChart"></canvas>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("offenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Mega-Gardevoir', 'Mega-Diancie', 'Tapu Koko'],
+            datasets: [{
+                label: "Offence",
+                data: [{x:165, y:100},{x:160, y:110},{x:115, y:130}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+    new Chart(document.getElementById("defenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Diancie and Carbink', 'Tapu Fini', 'Magearna'],
+            datasets: [{
+                label: "Defence",
+                data: [{x:150,y:150},{x:115,y:130},{x:115,y:115}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+</script>
+</html>

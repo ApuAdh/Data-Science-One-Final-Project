@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔮Psychic🧠</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="typeBody">
+    <h1 align="center">Psychic</h1>
+    <h2>Offence, X-Axis: Attack/Special Attack, Y-Axis: Speed</h2>
+    <p>The strongest Psychic type offensive pokemon is <strong>Mega Alakazam.</strong></p>
+    <canvas id="offenceChart"></canvas>
+    
+    <h2>Defence, X-Axis: Defence, Y-Axis: Special Defence</h2>
+    <p>The strongest Psychic type defensive pokemon is <strong>Lugia.</strong></p>
+    <canvas id="defenceChart"></canvas>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("offenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Alakazam', 'Mega-Alakazam', 'Mewtwo', 'Mega-Mewtwo-X', 'Mega-Mewtwo-Y','Azelf', 'Meloetta-Pirouette'],
+            datasets: [{
+                label: "Offence",
+                data: [{x:135, y:120},{x:175, y:150},{x:154, y:120},{x:190,y:130},{x:194,y:140},{x:125, y:115},{x:128, y:128}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+    new Chart(document.getElementById("defenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Lugia', 'Mega-Latias', 'Bronzong', 'Uxie', 'Cresselia', 'Cosmoem'],
+            datasets: [{
+                label: "Defence",
+                data: [{x:130,y:154},{x:120,y:150}, {x:116,y:116}, {x:130,y:130}, {x:110,y:120}, {x:131,y:131}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+</script>
+</html>

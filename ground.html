@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="typeBody">
+    <h1 align="center">🏔Ground🏔</h1>
+    <h2>Offence, X-Axis: Attack/Special Attack, Y-Axis: Speed</h2>
+    <p>The strongest Ground type offensive pokemon is <strong>Garchomp.</strong></p>
+    <canvas id="offenceChart"></canvas>
+    
+    <h2>Defence, X-Axis: Defence, Y-Axis: Special Defence</h2>
+    <p>The strongest Ground type defensive pokemon is <strong>Claydol.</strong></p>
+    <canvas id="defenceChart"></canvas>
+    <button class="home-button" onclick="window.location.href='index.html'">Home</button>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    new Chart(document.getElementById("offenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Groudon', 'Groudon-Primal', 'Garchomp', 'Mega-Garchomp','Krookodile', 'Landorus', 'Landorus-Therian'],
+            datasets: [{
+                label: "Offence",
+                data: [{x:150, y:90}, {x:180, y:90}, {x:130,y:102}, {x:170,y:92}, {x:117, y:92}, {x:125, y:101}, {x:145,y:91}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+    new Chart(document.getElementById("defenceChart"), {
+        type: 'scatter',
+        data:{
+            labels: ['Mega-Swampert', 'Mega-Camerupt','Claydol'],
+            datasets: [{
+                label: "Defence",
+                data: [{x:110, y:110},{x:100, y:105},{x:105, y:120}],
+                backgroundColor: 'rgb(255,69,0)',
+            }]
+        }
+    })
+</script>
+</html>
