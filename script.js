@@ -74,3 +74,49 @@ new Chart(document.getElementById('defenseStat2'), {
         }
     }
 });
+new Chart(document.getElementById('statDistribution'), {
+  type: 'line',
+  data: {
+      labels: ["Gen1", "Gen2", "Gen3", "Gen4", "Gen5", "Gen6", "Gen7", "Gen8", "Gen9"],
+      datasets: [
+      {
+          label: 'Physical Attack Average',
+          data: [77.95098039215686, 72.08928571428571, 81.03030303030303, 82.28, 83.25988700564972, 77.875, 87.56, 85.58715596330275, 81.88695652173914],
+          borderWidth: 2.5,
+          borderColor: 'rgb(0,0,0)',
+      },{
+          label: "Special Attack Average",
+          data: [69.90686274509804, 66.24107142857143, 75.6, 76.824, 71.64406779661017, 75.1590909090909, 78.02, 75.13761467889908, 70.5304347826087],
+          borderWidth: 2.5,
+          borderColor: 'rgb(0, 145, 173)'
+      },{
+          label: "HP Average",
+          data: [65.5343137254902, 71.34821428571429, 66.80606060606061, 72.904, 72.27118644067797, 70.14772727272727, 71.63, 76.28440366972477, 76.6],
+          borderWidth: 2.5,
+          borderColor: 'rgb(217, 108, 6)'
+      },{
+          label: "Defence Average",
+          data: [71.65686274509804, 73.58928571428571, 74.04848484848485, 78.032, 72.0225988700565, 78.45454545454545, 79.21, 77.3211009174312, 72.55652173913043],
+          borderWidth: 2.5,
+          borderColor: 'rgb(189, 191, 9)'
+      },{
+          label: "Special Defence Average",
+          data: [68.97549019607843, 74.14285714285714, 71.13939393939394, 77.28, 68.16949152542372, 75.92045454545455, 75.75, 73.40366972477064, 70.30434782608695],
+          borderWidth: 2.5,
+          borderColor: 'rgb(217, 108, 6)'
+      }, {
+          label: "Speed Average",
+          data: [73.26960784313725, 61.80357142857143, 67.38181818181818, 71.312, 68.96045197740114, 67.25, 67.77, 72.33944954128441, 75.52173913043478],
+          borderWidth: 2.5,
+          borderColor: 'rgb(255, 87, 187)'
+      }]
+  },
+      options: {
+      plugins:{legend:{display:false}},
+      scales: {
+          y: {
+            beginAtZero: true
+          }
+      }
+  }
+});
