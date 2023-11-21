@@ -3,6 +3,9 @@ body{
     font-family:monospace;
     background-image: url("pikachu.jpeg")
 }
+.home{
+    background-color:black
+}
 .typeBody{
     background-color: white;
     background-image: none;
