@@ -53,7 +53,7 @@ a{
 a:hover{
     color:red
 }
-@media all and (max-width:390px){
+@media all and (max-width:540px){
     .rounded-button{
         height: 50px;
         width: 100%;
