@@ -1,10 +1,17 @@
+*{
+    margin: 0;
+    padding:0;
+}
+h1{
+    font-size: 200%;
+}
 body{
     color: black;
     font-family:monospace;
 }
 .rounded-button{
     height: 216px;
-    width: 16.195%;
+    width: 14%;
     border-radius: 30px;
     padding: 10px 20px;
     background-color: transparent;
@@ -13,9 +20,9 @@ body{
     font-size: 20px;
     cursor: pointer;
     font-family: monospace;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
     font-weight: bold;
-    margin-top: 1%;
+    margin: 1%;
 }
 #fire:hover{
     background-color: orangered;
@@ -96,7 +103,7 @@ a{
 a:hover{
     color:red
 }
-@media all and (max-width:390px){
+@media all and (max-width:540px){
     .rounded-button{
         height: 50px;
         width: 100%;
@@ -128,5 +135,5 @@ section{
     display:grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 110vh;
 }
