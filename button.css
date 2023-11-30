@@ -100,3 +100,20 @@ body{
     filter: blur(0);
     transform: translateX(0);
 }
+@media all and (max-width:390px){
+    .rounded-button{
+        height: 50px;
+        width: 100%;
+        border-radius: 30px;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: black;
+        border: solid black;
+        font-size: auto;
+        cursor: pointer;
+        font-family: monospace;
+        transition: background-color 0.3s;
+        font-weight: bold;
+        margin-top: 1%;
+    }
+}

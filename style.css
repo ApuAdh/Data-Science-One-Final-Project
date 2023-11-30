@@ -55,14 +55,14 @@ a:hover{
 }
 @media all and (max-width:390px){
     .rounded-button{
-        height: 140px;
-        width: 15%;
+        height: 50px;
+        width: 100%;
         border-radius: 30px;
         padding: 10px 20px;
         background-color: transparent;
         color: black;
         border: solid black;
-        font-size: 20%;
+        font-size: auto;
         cursor: pointer;
         font-family: monospace;
         transition: background-color 0.3s;
