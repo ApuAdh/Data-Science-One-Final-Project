@@ -144,7 +144,7 @@ let pokemon = ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Mega Venusaur', 'Oddish', 'G
 {x:95,y:70},
 {x:130,y:104},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(0, 255, 30)',
             }]
         }
     })
@@ -293,7 +293,7 @@ let pokemon = ['Bulbasaur', 'Ivysaur', 'Venusaur', 'Mega Venusaur', 'Oddish', 'G
 {x:100,y:135},
 {x:88,y:108},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(0, 255, 30)',
             }]
         }
     })

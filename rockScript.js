@@ -93,7 +93,7 @@ let pokemon = ['Hisuian Growlithe', 'Hisuian Arcanine', 'Geodude', 'Alolan Geodu
 {x:130,y:86},
 {x:134,y:72},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(167, 148, 28)',
             }]
         }
     })
@@ -190,7 +190,7 @@ let pokemon = ['Hisuian Growlithe', 'Hisuian Arcanine', 'Geodude', 'Alolan Geodu
 {x:90,y:81},
 {x:110,y:84},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(167, 148, 28)',
             }]
         }
     })

@@ -107,7 +107,7 @@ let pokemon = ['Caterpie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedril
 {x:115,y:45},
 {x:135,y:81},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(195,255,0)',
             }]
         }
     })
@@ -218,7 +218,7 @@ let pokemon = ['Caterpie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedril
 {x:85,y:100},
 {x:79,y:105},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(195,255,0)',
             }]
         }
     })

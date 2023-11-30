@@ -3,20 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strongest Pokemon</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="App.js"></script>
+    <title>Analysis</title>
 </head>
+<link rel="stylesheet" href="analysis.css">
+<script defer src="analysis.js"></script>
 <body>
-    <h1 align="center">Data Science One Final Project</h1>
-    <br>
-    <br>
-    <h1>My Question: What Is The Strongest Pokemon For Every Type?</h1>
-    <h1>Data: <a href="https://pokemondb.net/">The Pokemon Data Base</a></h1>
-    <h1>Analysis: I used pokemondb to get the stats of every single pokemon. Then I wrote a function to indentify the preferred attack stat for every pokemon.
-        After that I created two graphs that compare the pokemon based on their offensive capabilities and and their defensive capabilities.
-        Click on the following buttons to find the strognest pokemon for their corresponding types
-    </h1>
+    <section class="hidden">
+        <h1>What is the strongest Pokemon For Every Type?</h1>
+    </section>
+
+    <section class="hidden">
+        <h1>Analysis</h1>
+    </section>
+
+    <section class="hidden">
+        <h1>At First I webscrapped <a href="http://www.pokemondb.net">PokemonDB</a>, turning it into a csv file I can work with</h1>
+    </section>
+
+    <section class="hidden">
+        <h1>Then I created a python function that allows me to create a "Preferred Stat"</h1>
+        <h1>for every single pokemon and then added it as a column to the</h1>
+        <h1>CSV file</h1>
+    </section>
+
+    <section class="hidden">
+        <h1>Then I created two scatterplots for every pokemon type</h1>
+    </section>
+
+    <section class="hidden">
+        <h1>The first graph compares the Preferred Attack and Speed</h1>
+        <h1>stat which helps us find the best offensive pokemon of said type</h1>
+    </section>
+
+    <section class="hidden">
+        <h1>The second graph compares the Physical Defence and Special Defence</h1>
+        <h1>stat which helps us find the best defensive pokemon of the given type</h1>
+    </section>
+
+    <section class="hidden">
+        <h1>Click Any Of The Following Given Types To Find The Strongest Pokemon</h1>
+    </section>
+
+    <div class="hidden">
     <button class="rounded-button" id="fire" onclick="window.location.href='fire.html'">Fire</button>
     <button class="rounded-button" id="water" onclick="window.location.href='water.html'">Water</button>
     <button class="rounded-button" id="grass" onclick="window.location.href='grass.html'">Grass</button>
@@ -35,5 +63,6 @@
     <button class="rounded-button" id="dark" onclick="window.location.href='dark.html'">Dark</button>
     <button class="rounded-button" id="steel" onclick="window.location.href='steel.html'">Steel</button>
     <button class="rounded-button" id="dragon" onclick="window.location.href='dragon.html'">Dragon</button>
-    </body>
+    </div>
+</body>
 </html>

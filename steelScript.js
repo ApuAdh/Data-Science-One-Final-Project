@@ -90,7 +90,7 @@ let pokemon = ['Alolan Sandshrew', 'Alolan Sandslash', 'Alolan Diglett', 'Alolan
 {x:112,y:106},
 {x:133,y:84},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(111, 128, 144)',
             }]
         }
     })
@@ -184,7 +184,7 @@ let pokemon = ['Alolan Sandshrew', 'Alolan Sandslash', 'Alolan Diglett', 'Alolan
 {x:120,y:70},
 {x:95,y:91},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(111, 128, 144)',
             }]
         }
     })

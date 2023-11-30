@@ -138,7 +138,7 @@ let pokemon = ['Charizard', 'Mega Charizard Y', 'Butterfree', 'Pidgey', 'Pidgeot
 {x:115,y:90},
 {x:122,y:108},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(43, 193, 193)',
             }]
         }
     })
@@ -281,7 +281,7 @@ let pokemon = ['Charizard', 'Mega Charizard Y', 'Butterfree', 'Pidgey', 'Pidgeot
 {x:74,y:64},
 {x:86,y:80},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(43, 193, 193)',
             }]
         }
     })

@@ -96,7 +96,7 @@ let pokemon = ['Sandshrew', 'Sandslash', 'Nidoqueen', 'Nidoking', 'Diglett', 'Al
 {x:112,y:106},
 {x:110,y:45},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(218,165,32)',
             }]
         }
     })
@@ -197,7 +197,7 @@ let pokemon = ['Sandshrew', 'Sandslash', 'Nidoqueen', 'Nidoking', 'Diglett', 'Al
 {x:120,y:70},
 {x:125,y:80},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(218,165,32)',
             }]
         }
     })

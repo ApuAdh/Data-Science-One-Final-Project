@@ -98,7 +98,7 @@ let pokemon = ['Mankey', 'Primeape', 'Poliwrath', 'Machop', 'Machoke', 'Machamp'
 {x:130,y:116},
 {x:135,y:135},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255,0,0)',
             }]
         }
     })
@@ -200,7 +200,7 @@ let pokemon = ['Mankey', 'Primeape', 'Poliwrath', 'Machop', 'Machoke', 'Machamp'
 {x:90,y:60},
 {x:115,y:100},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255,0,0)',
             }]
         }
     })

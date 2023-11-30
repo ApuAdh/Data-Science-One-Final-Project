@@ -90,7 +90,7 @@ let pokemon = ['Gastly', 'Haunter', 'Gengar', 'Mega Gengar', 'Alolan Marowak', '
 {x:75,y:80},
 {x:133,y:84},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(119, 63, 204)',
             }]
         }
     })
@@ -185,7 +185,7 @@ let pokemon = ['Gastly', 'Haunter', 'Gengar', 'Mega Gengar', 'Alolan Marowak', '
 {x:25,y:45},
 {x:95,y:91},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(119, 63, 204)',
             }]
         }
     })

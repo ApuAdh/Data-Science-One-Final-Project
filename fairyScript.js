@@ -80,7 +80,7 @@ let pokemon = ['Clefairy', 'Clefable', 'Alolan Ninetales', 'Jigglypuff', 'Wiggly
 {x:135,y:135},
 {x:130,y:116},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255, 0, 255)',
             }]
         }
     })
@@ -164,7 +164,7 @@ let pokemon = ['Clefairy', 'Clefable', 'Alolan Ninetales', 'Jigglypuff', 'Wiggly
 {x:55,y:135},
 {x:90,y:60},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255, 0, 255)',
             }]
         }
     })

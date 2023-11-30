@@ -156,7 +156,7 @@ let pokemon = ['Pidgey', 'Pidgeotto', 'Pidgeot', 'Mega Pidgeot', 'Rattata', 'Alo
 {x:100,y:55},
 {x:100,y:55},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(0,0,0)',
             }]
         }
     })
@@ -317,7 +317,7 @@ let pokemon = ['Pidgey', 'Pidgeotto', 'Pidgeot', 'Mega Pidgeot', 'Rattata', 'Alo
 {x:80,y:75},
 {x:80,y:75},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(0,0,0)',
             }]
         }
     })

@@ -96,7 +96,7 @@ let pokemon = ['Alolan Rattata', 'Alolan Raticate', 'Alolan Meowth', 'Alolan Per
 {x:135,y:100},
 {x:139,y:119},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(70,51,16)',
             }]
         }
     })
@@ -196,7 +196,7 @@ let pokemon = ['Alolan Rattata', 'Alolan Raticate', 'Alolan Meowth', 'Alolan Per
 {x:80,y:120},
 {x:71,y:101},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(70,51,16)',
             }]
         }
     })

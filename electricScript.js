@@ -92,7 +92,7 @@ let pokemon = ['Pikachu', 'Partner Pikachu', 'Raichu', 'Alolan Raichu', 'Alolan 
 {x:134,y:72},
 {x:135,y:135},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255,165,0)',
             }]
         }
     })
@@ -189,7 +189,7 @@ let pokemon = ['Pikachu', 'Partner Pikachu', 'Raichu', 'Alolan Raichu', 'Alolan 
 {x:110,y:84},
 {x:100,y:115},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255,165,0)',
             }]
         }
     })

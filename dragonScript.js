@@ -95,7 +95,7 @@ let pokemon = ['Mega Charizard X', 'Alolan Exeggutor', 'Dratini', 'Dragonair', '
 {x:135,y:135},
 {x:125,y:109},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(71,28,172)',
             }]
         }
     })
@@ -194,7 +194,7 @@ let pokemon = ['Mega Charizard X', 'Alolan Exeggutor', 'Dratini', 'Dragonair', '
 {x:100,y:115},
 {x:91,y:83},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(71,28,172)',
             }]
         }
     })

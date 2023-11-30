@@ -138,7 +138,7 @@ let pokemon = ['Alolan Raichu', 'Abra', 'Kadabra', 'Alakazam', 'Mega Alakazam', 
 {x:65,y:111},
 {x:130,y:104},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255, 0, 153)',
             }]
         }
     })
@@ -280,7 +280,7 @@ let pokemon = ['Alolan Raichu', 'Abra', 'Kadabra', 'Alakazam', 'Mega Alakazam', 
 {x:99,y:115},
 {x:88,y:108},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(255, 0, 153)',
             }]
         }
     })

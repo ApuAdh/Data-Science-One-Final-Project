@@ -181,7 +181,7 @@ let pokemon = ['Squirtle', 'Wartortle', 'Blastoise', 'Mega Blastoise', 'Psyduck'
 {x:124,y:136},
 {x:125,y:109},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(0,255,255)',
             }]
         }
     })
@@ -367,7 +367,7 @@ let pokemon = ['Squirtle', 'Wartortle', 'Blastoise', 'Mega Blastoise', 'Psyduck'
 {x:114,y:60},
 {x:91,y:83},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(0,255,255)',
             }]
         }
     })

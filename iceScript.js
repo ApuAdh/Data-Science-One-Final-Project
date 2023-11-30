@@ -71,7 +71,7 @@ let pokemon = ['Alolan Sandshrew', 'Alolan Sandslash', 'Alolan Vulpix', 'Alolan 
 {x:145,y:87},
 {x:120,y:135},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(128, 255, 212)',
             }]
         }
     })
@@ -147,7 +147,7 @@ let pokemon = ['Alolan Sandshrew', 'Alolan Sandslash', 'Alolan Vulpix', 'Alolan 
 {x:92,y:86},
 {x:80,y:65},
 ],
-                backgroundColor: 'rgb(255,69,0)',
+                backgroundColor: 'rgb(128, 255, 212)',
             }]
         }
     })
